@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Allow Access to Variable Table">44196335c33722107e68b41ed40131d4</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>1</previous_status>
+        <progress>100</progress>
+        <related_log_entry display_value="2025-09-06 03:16:32">72d9e3b5c33722107e68b41ed40131b7</related_log_entry>
+        <status>2</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-06 10:15:17</sys_created_on>
+        <sys_id>d099eb35c33722107e68b41ed4013147</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>gsw_status_of_content_d099eb35c33722107e68b41ed4013147</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-06 10:16:32</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

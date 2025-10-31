@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size>1000</batch_size>
+        <category/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url/>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table) {
+
+	var apiKey = gs.getProperty('x_854636_b_board.us1_api_token');
+	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - us1', 'ListArchitectureTemplates');
+	r.setStringParameterNoEscape('token', apiKey);
+	var response = r.execute();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	var resp = global.JSON.parse(responseBody);
+	
+	// Iterate through the array elements
+	for (var i = 0; i < resp.length; i++) {
+		resp[i].api_type = "us1";
+		import_set_table.insert(resp[i]);
+	}
+
+})(import_set_table);
+
+
+]]></data_loader>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>CSV</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>Brainboard Architecture Templates</import_set_table_label>
+        <import_set_table_name>x_854636_b_board_brainboard_architecture_templates</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time>2025-10-29 11:11:22</last_success_import_time>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Brainboard Architecture Templates (us1)</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script><![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]></parallel_loading_script>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action/>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_name>1</sheet_name>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 19:51:29</sys_created_on>
+        <sys_id>823a0d47c3f722107e68b41ed4013116</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Brainboard Architecture Templates (us1)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_data_source_823a0d47c3f722107e68b41ed4013116</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-29 11:11:25</sys_updated_on>
+        <table_name/>
+        <type>CUSTOM</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>

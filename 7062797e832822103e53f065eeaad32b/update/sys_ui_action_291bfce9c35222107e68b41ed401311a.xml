@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_architecture_template</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>destructive</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>true</list_context_menu>
+        <list_link>true</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style>destructive</list_style>
+        <messages/>
+        <name>Remove Architecture Templates</name>
+        <onclick>deleteRecords()</onclick>
+        <order>100</order>
+        <script><![CDATA[function deleteRecords() {
+	var selSysIds = g_list.getChecked();
+	var sysIdList = selSysIds.split(',');
+	var ga = new GlideAjax("x_854636_b_board.BrainboardUtility");
+	ga.addParam('sysparm_name', 'removeArchTemplate');
+	ga.addParam('sysparm_archSysIds', sysIdList.join(","));
+	ga.getXML(function (response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		alert(answer);
+	});
+	
+
+
+
+}
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 13:20:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>291bfce9c35222107e68b41ed401311a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Remove Architecture Templates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_ui_action_291bfce9c35222107e68b41ed401311a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 09:39:39</sys_updated_on>
+        <table>x_854636_b_board_architecture_template</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

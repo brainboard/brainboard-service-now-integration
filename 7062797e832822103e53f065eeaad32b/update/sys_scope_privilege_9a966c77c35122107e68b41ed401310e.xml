@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-10 18:34:20</sys_created_on>
+        <sys_id>9a966c77c35122107e68b41ed401310e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_data_source</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_scope_privilege_9a966c77c35122107e68b41ed401310e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-10 18:34:20</sys_updated_on>
+        <target_name>sys_data_source</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

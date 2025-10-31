@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="69493adf83a4e2103e53f065eeaad3e7" label="Variable" max_length="40" name="x_854636_b_board_variable" type="collection">
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var grArchTpl = current.architecture_template.getRefRecord();&#10;&#9;return current.name + grArchTpl.uuid; &#10;&#10;})(current);" label="Architecture Template Uuid and Variable Name" max_length="8000" name="architecture_template_uuid_and_variable_name" type="script" virtual="true"/>
-        <element label="Type" max_length="8000" name="type" type="string"/>
-        <element label="ID" max_length="8000" name="id" type="string"/>
-        <element label="Value" max_length="8000" name="value" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Architecture Template" max_length="32" name="architecture_template" reference="x_854636_b_board_architecture_template" type="reference"/>
-        <element label="Validation" max_length="8000" name="validation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Sensitive" max_length="40" name="sensitive" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Mandatry" max_length="40" name="mandatry" type="boolean"/>
-        <element label="Default" max_length="8000" name="default" type="string"/>
-        <element label="Description" max_length="8000" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Catalog Variable" max_length="32" name="catalog_variable" reference="item_option_new" reference_cascade_rule="delete" type="reference"/>
+        <element label="Type" max_length="8000" name="type" type="string"/>
         <element label="Scope" max_length="8000" name="scope" type="string"/>
-        <element label="Name" max_length="8000" name="name" type="string"/>
         <element label="Scope ID" max_length="8000" name="scope_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Architecture Template" max_length="32" name="architecture_template" read_only="true" reference="x_854636_b_board_architecture_template" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Mandatry" max_length="40" name="mandatry" read_only="true" type="boolean"/>
+        <element label="Default" max_length="8000" name="default" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var grArchTpl = current.architecture_template.getRefRecord();&#10;&#9;return current.name + grArchTpl.uuid; &#10;&#10;})(current);" label="Architecture Template Uuid and Variable Name" max_length="8000" name="architecture_template_uuid_and_variable_name" type="script" virtual="true"/>
+        <element label="Description" max_length="256000" name="description" read_only="true" type="string"/>
+        <element label="Validation" max_length="8000" name="validation" type="string"/>
+        <element label="Name" max_length="8000" name="name" read_only="true" type="string"/>
+        <element label="Value" max_length="256000" name="value" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="API Type" max_length="40" name="api_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="us1" sequence="20" value="us1"/>
+                <element inactive_on_update="false" label="apac1" sequence="10" value="apac1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Catalog Variable" max_length="32" name="catalog_variable" read_only="true" reference="item_option_new" reference_cascade_rule="delete" type="reference"/>
+        <element label="ID" max_length="8000" name="id" read_only="true" type="string"/>
         <index name="index">
             <element name="architecture_template"/>
         </index>
         <index name="index2">
             <element name="catalog_variable"/>
-        </index>
-        <index name="index3">
-            <element name="id"/>
         </index>
     </element>
 </database>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>${payload}</content>
+        <function_name>ListVariables</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Brainboard - us1 [ ListVariables ]</qualified_name>
+        <rest_endpoint>https://api.us1.brainboard.co/variables/${architectureUUID}?architectureUUID</rest_endpoint>
+        <rest_message display_value="Brainboard - us1">7df8b5f6836822103e53f065eeaad302</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-05 11:53:08</sys_created_on>
+        <sys_id>806636edc377e6107e68b41ed40131b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ListVariables</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_rest_message_fn_806636edc377e6107e68b41ed40131b1</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-05 12:01:10</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

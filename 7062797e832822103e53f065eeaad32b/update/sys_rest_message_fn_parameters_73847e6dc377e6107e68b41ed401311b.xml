@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>environmentUUID</name>
+        <rest_message_function display_value="ListArchitectures">a62931b6836822103e53f065eeaad3d7</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-05 11:45:11</sys_created_on>
+        <sys_id>73847e6dc377e6107e68b41ed401311b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>environmentUUID</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_73847e6dc377e6107e68b41ed401311b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:23:20</sys_updated_on>
+        <type>string</type>
+        <value/>
+    </sys_rest_message_fn_parameters>
+</record_update>

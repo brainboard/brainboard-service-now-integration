@@ -13,7 +13,7 @@
         <mobile_title>Variables</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_854636_b_board_variable</name>
-        <order>200</order>
+        <order>400</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>615877d7832ce2103e53f065eeaad3d1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Variables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_app_module_615877d7832ce2103e53f065eeaad3d1</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-02 13:47:22</sys_updated_on>
+        <sys_updated_on>2025-09-06 10:27:11</sys_updated_on>
         <timeline_page/>
         <title>Variables</title>
         <uncancelable>false</uncancelable>

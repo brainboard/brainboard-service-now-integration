@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="catalog_item" table="x_854636_b_board_architecture_template">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -38,9 +38,9 @@
         <name>x_854636_b_board_architecture_template</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
-        <reference display_value="" name="sc_cat_item">sc_cat_item</reference>
+        <reference display_value="" name="sc_cat_item_producer">sc_cat_item_producer</reference>
         <reference_cascade_rule>delete</reference_cascade_rule>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_dictionary_x_854636_b_board_architecture_template_catalog_item</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-14 22:08:58</sys_updated_on>
+        <sys_updated_on>2025-09-04 19:28:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

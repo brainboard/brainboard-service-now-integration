@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p>Brainboard creates Architecture Templates as Record Producers in ServiceNow. It also creates Architecture Template variables as Catalog Variables.<br />To allow the app to create Catalog Variables, you need to grant the table Create, Read, Write, and Delete permissions from other application scopes</p>
+<ol style="list-style-position: inside;"><li>Click &#34;Configure&#34; button, then go to the Application Access tab.</li><li>Set Accessible from to All application scopes.</li><li>Check the following options:
+<ul style="list-style-position: inside;"><li>Can read</li><li>Can create</li><li>Can update</li><li>Can delete</li></ul>
+</li></ol>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point>/sys_db_object.do?sys_id=a6f3c13b8d820210d0ad51af418663aa</end_point>
+        <end_point_open_mode>1</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>20</order>
+        <parent display_value="Configure Table Access (Global Dependencies)">51ee9375c3f322107e68b41ed40131b9</parent>
+        <parents>51ee9375c3f322107e68b41ed40131b9,aa9d4b7dc37322107e68b41ed4013128</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Brainboard Application Setup">aa9d4b7dc37322107e68b41ed4013128</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-06 10:13:04</sys_created_on>
+        <sys_id>44196335c33722107e68b41ed40131d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Allow Access to Variable Table</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>gsw_content_information_44196335c33722107e68b41ed40131d4</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-06 10:13:48</sys_updated_on>
+        <table/>
+        <title>Allow Access to Variable Table</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=44196335c33722107e68b41ed40131d4"/>
+</record_update>

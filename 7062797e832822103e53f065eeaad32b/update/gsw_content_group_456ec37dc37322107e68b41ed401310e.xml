@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>Vn5GOrwL5gXs5elbmZukdmO01Hw=</checksum>
+        <child_can_have_roles>false</child_can_have_roles>
+        <children_layout>1</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description><![CDATA[<p>Configure various system properties, For example:-  api token</p>]]></description>
+        <display_child_max_num/>
+        <done_status_text/>
+        <hide_getting_started>false</hide_getting_started>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_root_content>false</is_root_content>
+        <order>200</order>
+        <parent display_value="Brainboard Application Setup">aa9d4b7dc37322107e68b41ed4013128</parent>
+        <parents>aa9d4b7dc37322107e68b41ed4013128</parents>
+        <progress_text/>
+        <roles/>
+        <root_intro_frame_link/>
+        <root_parent display_value="Brainboard Application Setup">aa9d4b7dc37322107e68b41ed4013128</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-06 08:18:37</sys_created_on>
+        <sys_id>456ec37dc37322107e68b41ed401310e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Configure System Properties</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>gsw_content_group_456ec37dc37322107e68b41ed401310e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 09:24:39</sys_updated_on>
+        <title>Configure System Properties</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=456ec37dc37322107e68b41ed401310e"/>
+</record_update>

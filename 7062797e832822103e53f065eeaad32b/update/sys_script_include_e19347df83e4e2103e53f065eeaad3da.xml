@@ -13,18 +13,18 @@
 
 BrainboardUtility.variableSets = [
 	{
-		sys_id: "18e4df62837462103e53f065eeaad357",
+		sys_id: "f4c1942bc3af22107e68b41ed40131cd",
 		order: 100,
 		description: "Widget Item"
 	},
 	{
-		sys_id: "6f7ba36283f462103e53f065eeaad3d7",
-		order: 200,
-		description: "Customizable Fields"
+		sys_id: "52b414ebc3af22107e68b41ed40131f4",
+		order: 300,
+		description: "Variables"
 	},
 	{
-		sys_id: "8c7326e2837062103e53f065eeaad399",
-		order: 300,
+		sys_id: "17459cafc3af22107e68b41ed4013110",
+		order: 200,
 		description: "Project & Environment"
 	}
 ];
@@ -36,7 +36,101 @@ BrainboardUtility.portalTopic = "3833c87f473062506161e99b116d43d4";
 BrainboardUtility.clone_architecture_tpl_flow = "3bbb5fea837462103e53f065eeaad3bc";
 
 
+
 BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+	cleanArchTemplates: function () {
+		function isAssociatedWithArchTpl(catalogItemSysID) {
+			var grArch = new GlideRecord('x_854636_b_board_architecture_template');
+			grArch.addQuery("catalog_item", catalogItemSysID);
+			grArch.setLimit(1);
+			grArch.query();
+			return grArch.hasNext(); // simpler than using a while-loop
+		}
+
+		try {
+			var grCatItem = new GlideRecord('sc_cat_item_producer');
+			grCatItem.addEncodedQuery("sys_scope=7062797e832822103e53f065eeaad32b");
+			grCatItem.query();
+
+			while (grCatItem.next()) {
+				var catalogItemSysId = grCatItem.getUniqueValue();
+				var isAssociated = isAssociatedWithArchTpl(catalogItemSysId);
+
+				if (!isAssociated) {
+					gs.info("[CLEANUP] Removing catalog item: " + grCatItem.name);
+
+					// Delete related io_set_item_list records (variables)
+					var grVarItemList = new GlideRecord("item_option_new");
+					grVarItemList.addQuery('cat_item', catalogItemSysId);
+					grVarItemList.query();
+					while (grVarItemList.next()) {
+						grVarItemList.deleteRecord();
+					}
+
+					// Delete related io_set_item_set records (catalog item ↔ variable set connector)
+					var grVarItemSet = new GlideRecord("io_set_item");
+					grVarItemSet.addQuery('sc_cat_item', catalogItemSysId);
+					grVarItemSet.query();
+					while (grVarItemSet.next()) {
+						grVarItemSet.deleteRecord();
+					}
+
+					// Delete related m2m records
+					var grConnectedContent = new GlideRecord("m2m_connected_content");
+					grConnectedContent.addQuery('catalog_item', catalogItemSysId);
+					grConnectedContent.query();
+					while (grConnectedContent.next()) {
+						grConnectedContent.deleteRecord();
+					}
+
+					// Finally, delete the catalog item itself
+					grCatItem.deleteRecord();
+
+				} else {
+					gs.info("[KEEP] Catalog item: " + grCatItem.name);
+				}
+			}
+
+		} catch (error) {
+			gs.error("ERROR ScriptInclude - BrainboardUtility.cleanArchTemplates: " + error.message);
+		}
+	},
+
+	syncVariable: function (architecture) {
+		var apiKey = gs.getProperty('x_854636_b_board.' + architecture.apiType + '_api_token');
+		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - ' + architecture.apiType, 'ListVariables');
+		r.setStringParameterNoEscape('architectureUUID', architecture.uuid);
+		r.setStringParameterNoEscape('token', apiKey);
+		var response = r.execute();
+		var responseBody = "" + response.getBody();
+		var httpStatus = response.getStatusCode();
+		var resp = global.JSON.parse(responseBody);
+
+		for (var i = 0; i < resp.length; i++) {
+			var variableExist = this.variableExist(resp[i], architecture.sys_id);
+			if (variableExist) {
+				this.updateVariable(resp[i], architecture.sys_id);
+			} else {
+				this.createVariable(resp[i], architecture.sys_id, architecture.apiType);
+			}
+		}
+	},
+
+	removeArchTemplate: function (archSysIds) {
+		try {
+			var arch_tpl_sysId = (archSysIds) ? archSysIds : this.getParameter("sysparm_archSysIds");
+			var grArch = new GlideRecord('x_854636_b_board_architecture_template');
+			grArch.addEncodedQuery("sys_idIN" + arch_tpl_sysId);
+			grArch.query();
+			while (grArch.next()) {
+				gs.eventQueue("x_854636_b_board.delete arch template", grArch, grArch.sys_id, "");
+			}
+		} catch (error) {
+			gs.info("ERROR ScriptInclude - BrainboardUtility:- " + error.message);
+		}
+	},
 
 	getAllProjects: function () {
 		var projectGr = new GlideRecord("x_854636_b_board_project");
@@ -77,7 +171,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		gr.addQuery("catalog_item", catItemSysId);
 		gr.query();
 		gr.setLimit(1);
-		while(gr.next()){
+		while (gr.next()) {
 			return JSON.stringify({
 				name: gr.getValue("name"),
 				uuid: gr.getValue("uuid"),
@@ -92,9 +186,10 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		}
 	},
 
-	createVariable: function (data, archTplSysId) {
+	createVariable: function (data, archTplSysId, apiType) {
 		var brainboardVariableGr = new GlideRecord("x_854636_b_board_variable");
 		brainboardVariableGr.initialize();
+		brainboardVariableGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		brainboardVariableGr.setValue("mandatry", data.mandatry);
 		brainboardVariableGr.setValue("architecture_template", archTplSysId);
 		brainboardVariableGr.setValue("value", data.value);
@@ -103,9 +198,12 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		brainboardVariableGr.setValue("default", data.default);
 		brainboardVariableGr.setValue("name", data.name);
 		brainboardVariableGr.setValue("id", data.uuid);
+		brainboardVariableGr.setValue("api_type", apiType);
 		var createdbrainboardVariableSysId = brainboardVariableGr.insert();
 
 		var catVariableGr = new GlideRecord("item_option_new");
+		catVariableGr.initialize();
+		catVariableGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		catVariableGr.type = "6";
 		catVariableGr.mandatory = brainboardVariableGr.getValue("mandatry");
 		catVariableGr.question_text = brainboardVariableGr.getValue("name");
@@ -147,30 +245,36 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		return 'sys_idIN' + envIDs.join(',');
 	},
 
-	getCloneRequestPayload: function (ritmSysId) {
-		var ritmGR = new GlideRecord("sc_req_item");
-		if (ritmGR.get(ritmSysId)) {
-
+	generatePayload: function (clnTplTaskSysId) {
+		var clnTplTaskGR = new GlideRecord("x_854636_b_board_clone_template_task");
+		if (clnTplTaskGR.get(clnTplTaskSysId)) {
 			var projectUUID = null;
 			var projectGR = new GlideRecord("x_854636_b_board_project");
-			if(projectGR.get(ritmGR.variables.project.toString())){
+			if (projectGR.get(clnTplTaskGR.variables.selectedProject.toString())) {
 				projectUUID = projectGR.getValue("uuid");
 			}
 
+			var environmentUUID = null;
+			var environmentUUIDGR = new GlideRecord("x_854636_b_board_environment");
+			if (environmentUUIDGR.get(clnTplTaskGR.variables.selectedEnvironment.toString())) {
+				environmentUUID = environmentUUIDGR.getValue("uuid");
+			}
+
+			var archTplUUID = clnTplTaskGR.variables.uuid.toString();
 			var payload = {
-				"description": ritmGR.variables.description.toString(),
-				"environment": ritmGR.variables.u_environment.toString(),
-				"name": ritmGR.variables.name.toString(),
+				"description": clnTplTaskGR.variables.architectureTemplateDescription.toString(),
+				"environment": environmentUUID,
+				"name": clnTplTaskGR.variables.architectureTemplateName.toString(),
 				"project": projectUUID,
 				"variable_values": {
 				}
 			};
 			var variableGr = new GlideRecord("x_854636_b_board_variable");
-			variableGr.addQuery("architecture_template.catalog_item", ritmGR.cat_item);
+			variableGr.addQuery("architecture_template.uuid", archTplUUID);
 			variableGr.query();
 			while (variableGr.next()) {
 				var varLabel = variableGr.catalog_variable.name;
-				payload.variable_values[variableGr.name] = ritmGR.variables[varLabel].toString();
+				payload.variable_values[variableGr.name] = clnTplTaskGR.variables[varLabel].toString();
 			}
 			return JSON.stringify(payload);
 		}
@@ -183,73 +287,114 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		}
 	},
 
-	cloneArchitectureTemplate: function (payload, archTemplateUuid) {
-		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'Clone Architecture Template');
-		r.setStringParameterNoEscape('template', archTemplateUuid);
-		r.setStringParameterNoEscape('payload', payload);
-		r.setStringParameterNoEscape('token', BrainboardUtility.token);
-		var response = r.execute();
-		var responseBody = response.getBody();
-		var httpStatus = response.getStatusCode();
-		return responseBody;
+	cloneArchitectureTemplate: function (apiType, payload, archTemplateUuid) {
+		try {
+			var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - ' + apiType, 'Clone Architecture Template');
+			r.setStringParameterNoEscape('template', archTemplateUuid);
+			r.setStringParameterNoEscape('payload', payload);
+			r.setStringParameterNoEscape('token', BrainboardUtility.token);
+
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+
+			if (httpStatus >= 200 && httpStatus < 300) {
+				return {
+					success: true,
+					status: httpStatus,
+					body: JSON.parse(responseBody)
+				};
+			} else {
+				var errorCode = "";
+				try {
+					var parsed = JSON.parse(responseBody || "{}");
+					if (parsed.error_code) {
+						errorCode = parsed.error_code;
+					} else if (parsed.message) {
+						// Sometimes APIs return "message" instead of "error_code"
+						errorCode = parsed.message;
+					}
+				} catch (e) {
+					// responseBody wasn’t valid JSON, fallback to raw body
+					errorCode = responseBody;
+				}
+
+				return {
+					success: false,
+					status: httpStatus,
+					error: httpStatus + " " + errorCode
+				};
+			}
+		} catch (error) {
+			gs.info("ScriptInclude ERROR - BrainboardUtility - cloneArchitectureTemplate == " + error.message);
+			return {
+				success: false,
+				error: error.message
+			};
+		}
 	},
 
 	createCatalogItem: function (archTplSysId, iconImageAttachment, pictureImageAttachment) {
 		var archTplGr = this.getArchitectureTemplateGR(archTplSysId);
-		var catItemGr = new GlideRecord("sc_cat_item");
-		catItemGr.initialize();
-		catItemGr.name = archTplGr.getValue("name");
-		catItemGr.description = archTplGr.getValue("description");
-		catItemGr.request_method = "submit";
-		catItemGr.no_cart_v2 = true;
-		catItemGr.no_quantity_v2 = true;
-		catItemGr.no_delivery_time_v2 = true;
-		catItemGr.no_save_as_draft = true;
-		catItemGr.no_attachment_v2 = true;
-		catItemGr.icon = iconImageAttachment;
-		catItemGr.picture = pictureImageAttachment;
-		catItemGr.active = true;
-		catItemGr.category = BrainboardUtility.catItemCategory;
-		catItemGr.sc_catalogs = BrainboardUtility.catItemCatalog;
-		catItemGr.flow_designer_flow = BrainboardUtility.clone_architecture_tpl_flow;
-		var catItemSysId = catItemGr.insert();
 
-		var mtmCon = new GlideRecord("m2m_connected_content"); 
-		mtmCon.initialize(); 
-		mtmCon.setValue("topic", BrainboardUtility.portalTopic); 
-		mtmCon.setValue("content_type", "98f9a16553622010069addeeff7b1248"); 
-		mtmCon.setValue("catalog_item", catItemSysId); 
-		mtmCon.insert(); 
+		var rp = new GlideRecord("sc_cat_item_producer");
+		rp.initialize();
+		rp.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
+		rp.name = archTplGr.getValue("name");
+		rp.short_description = archTplGr.getValue("name");
+		rp.description = archTplGr.getValue("description");
+		rp.table_name = "x_854636_b_board_clone_template_task";
+		rp.catalog = "e0d08b13c0a8016400a5f79be54a0ed2";
+		rp.category = BrainboardUtility.catItemCategory;
+		rp.script = 'current.project = producer.selectedProject;\n' +
+			'current.environment = producer.selectedEnvironment;';
+		rp.active = true;
+		rp.icon = iconImageAttachment;
+		rp.picture = pictureImageAttachment;
+		rp.no_attachment_v2 = true;
+		rp.no_save_as_draft = true;
+		var rpSysId = rp.insert();
 
-		archTplGr.setValue("catalog_item", catItemSysId);
+		var mtmCon = new GlideRecord("m2m_connected_content");
+		mtmCon.initialize();
+		mtmCon.setValue("topic", BrainboardUtility.portalTopic);
+		mtmCon.setValue("content_type", "98f9a16553622010069addeeff7b1248");
+		mtmCon.setValue("catalog_item", rpSysId);
+		mtmCon.insert();
+
+		archTplGr.setValue("catalog_item", rpSysId);
 		archTplGr.update();
 
-		BrainboardUtility.variableSets.forEach(function(variableSet){
+		// attach the variables sets to the cat item
+		BrainboardUtility.variableSets.forEach(function (variableSet) {
 			var variableSetGr = new GlideRecord("io_set_item");
 			variableSetGr.initialize();
+			variableSetGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 			variableSetGr.variable_set = variableSet.sys_id;
-			variableSetGr.sc_cat_item = catItemSysId;
+			variableSetGr.sc_cat_item = rpSysId;
 			variableSetGr.order = variableSet.order;
 			variableSetGr.insert();
 		});
 
-	    var containerStartGr = new GlideRecord("item_option_new");
+		var containerStartGr = new GlideRecord("item_option_new");
 		containerStartGr.initialize();
+		containerStartGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		containerStartGr.type = "19";
 		containerStartGr.question_text = "Variables";
 		containerStartGr.name = "variables";
 		containerStartGr.order = "390";
 		containerStartGr.display_title = true;
-		containerStartGr.cat_item = catItemSysId;
+		containerStartGr.cat_item = rpSysId;
 		containerStartGr.insert();
 
 		var formatterBreakGr = new GlideRecord("item_option_new");
 		formatterBreakGr.initialize();
+		formatterBreakGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		formatterBreakGr.type = "12";
 		formatterBreakGr.order = "380";
-		formatterBreakGr.cat_item = catItemSysId;
+		formatterBreakGr.cat_item = rpSysId;
 		formatterBreakGr.insert();
-		
+
 	},
 
 	attachImage: function (tableName, recordSysId, fileName, imageURL) {
@@ -282,13 +427,13 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>102</sys_mod_count>
+        <sys_mod_count>186</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-15 19:47:35</sys_updated_on>
+        <sys_updated_on>2025-09-11 10:43:45</sys_updated_on>
     </sys_script_include>
 </record_update>

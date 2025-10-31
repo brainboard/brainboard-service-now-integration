@@ -11,14 +11,12 @@
         <data_loader><![CDATA[(function loadData(import_set_table) {
 
 
-    
-
-var brainboardUtil = new x_854636_b_board.BrainboardUtility();
+var brainboardUtil = new global.BrainboardGlobalUtil();
 var allArchitectureUUIDs = brainboardUtil.getAllArchitectureTemplates();
 
 allArchitectureUUIDs.forEach(function(architecture){
-	var apiKey = gs.getProperty('x_854636_b_board.api.token');
-	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListVariables');
+	var apiKey = gs.getProperty('x_854636_b_board.us1_api_token');
+	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - us1', 'ListVariables');
 	r.setStringParameterNoEscape('architectureUUID', architecture.uuid);
 	r.setStringParameterNoEscape('token', apiKey);
 	var response = r.execute();
@@ -31,7 +29,7 @@ allArchitectureUUIDs.forEach(function(architecture){
 		if(variableExist){
 			brainboardUtil.updateVariable(resp[i], architecture.sys_id);
 		}else{
-			brainboardUtil.createVariable(resp[i], architecture.sys_id);
+			brainboardUtil.createVariable(resp[i], architecture.sys_id, "us1");
 		}
 	}
 });
@@ -56,13 +54,13 @@ allArchitectureUUIDs.forEach(function(architecture){
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
-        <last_success_import_time>2025-04-15 19:54:34</last_success_import_time>
+        <last_success_import_time>2025-09-15 07:00:11</last_success_import_time>
         <ldap_target/>
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
         <limit/>
         <maximum_rows/>
         <mid_server/>
-        <name>Brainboard Variables</name>
+        <name>Brainboard Variables (us1)</name>
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
@@ -94,14 +92,14 @@ allArchitectureUUIDs.forEach(function(architecture){
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:41:05</sys_created_on>
         <sys_id>e020cf5b83e4e2103e53f065eeaad344</sys_id>
-        <sys_mod_count>725</sys_mod_count>
-        <sys_name>Brainboard Variables</sys_name>
+        <sys_mod_count>754</sys_mod_count>
+        <sys_name>Brainboard Variables (us1)</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_data_source_e020cf5b83e4e2103e53f065eeaad344</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-04-15 19:55:48</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-30 08:17:42</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>

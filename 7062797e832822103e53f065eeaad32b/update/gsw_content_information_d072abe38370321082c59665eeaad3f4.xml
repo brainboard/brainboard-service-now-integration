@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p>Install the update set &#39;Brainboard Global Update Set.xml&#39;. it Should be provided by Brainboard. Make sure to commit the update set to your instance before installing the scoped app. The update set is in the Global Scope and it allows the creation of Record Producers and variable records from Brainboard Scoped App.</p>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point/>
+        <end_point_open_mode/>
+        <end_point_type/>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>10</order>
+        <parent display_value="Download &amp; Install Brainboard Global Update Set">a2bc622b473c7210fe41e30b216d4351</parent>
+        <parents>a2bc622b473c7210fe41e30b216d4351,aa9d4b7dc37322107e68b41ed4013128</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Brainboard Application Setup">aa9d4b7dc37322107e68b41ed4013128</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 13:16:35</sys_created_on>
+        <sys_id>d072abe38370321082c59665eeaad3f4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Install Brainboard Global Update Set</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>gsw_content_information_d072abe38370321082c59665eeaad3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:17:12</sys_updated_on>
+        <table/>
+        <title>Install Brainboard Global Update Set</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=d072abe38370321082c59665eeaad3f4"/>
+</record_update>

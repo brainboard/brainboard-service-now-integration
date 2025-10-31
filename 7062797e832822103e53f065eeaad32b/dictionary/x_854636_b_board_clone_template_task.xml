@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="9a7fd028c37f22107e68b41ed40131af" extends="task" label="Clone Template Task" max_length="40" name="x_854636_b_board_clone_template_task" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Architecture Template" max_length="32" name="architecture_template" read_only="true" reference="x_854636_b_board_architecture_template" type="reference"/>
+        <element label="Error Message" max_length="254" name="error_message" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Environment" max_length="32" name="environment" read_only="true" reference="x_854636_b_board_environment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Project" max_length="32" name="project" read_only="true" reference="x_854636_b_board_project" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="submitted" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="10" value="submitted"/>
+                <element inactive_on_update="false" label="Error" sequence="40" value="error"/>
+                <element inactive_on_update="false" label="Clone Failed" sequence="30" value="clone_failed"/>
+                <element inactive_on_update="false" label="Clone Successful" sequence="20" value="clone_successful"/>
+            </choice>
+        </element>
+    </element>
+</database>
