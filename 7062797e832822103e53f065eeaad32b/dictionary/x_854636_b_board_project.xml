@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="76f32226837062103e53f065eeaad32a" label="Project" max_length="40" name="x_854636_b_board_project" type="collection">
-        <element label="ID" max_length="40" name="uuid" type="string"/>
-        <element label="Name" max_length="80" name="name" type="string"/>
-        <element label="Description" max_length="254" name="description" type="string"/>
-        <index name="index">
-            <element name="uuid"/>
-        </index>
+        <element label="Name" max_length="8000" name="name" read_only="true" type="string"/>
+        <element label="Description" max_length="256000" name="description" read_only="true" type="string"/>
+        <element label="ID" max_length="40" name="uuid" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="API Type" max_length="40" name="api_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="apac1" sequence="20" value="apac1"/>
+                <element inactive_on_update="false" label="us1" sequence="10" value="us1"/>
+            </choice>
+        </element>
     </element>
 </database>

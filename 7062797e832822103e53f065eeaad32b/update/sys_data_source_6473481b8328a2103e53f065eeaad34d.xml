@@ -10,16 +10,17 @@
         <data_in_single_column>false</data_in_single_column>
         <data_loader><![CDATA[(function loadData(import_set_table) {
 
-	var apiKey = gs.getProperty('x_854636_b_board.api.token');
+	var apiKey = gs.getProperty('x_854636_b_board.apac1_api_token');
 	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListArchitectureTemplates');
 	r.setStringParameterNoEscape('token', apiKey);
 	var response = r.execute();
-	var responseBody = "" + response.getBody();
+	var responseBody = response.getBody();
 	var httpStatus = response.getStatusCode();
 	var resp = global.JSON.parse(responseBody);
 	
 	// Iterate through the array elements
 	for (var i = 0; i < resp.length; i++) {
+		resp[i].api_type = "apac1";
 		import_set_table.insert(resp[i]);
 	}
 
@@ -46,13 +47,13 @@
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
-        <last_success_import_time>2025-04-15 19:53:05</last_success_import_time>
+        <last_success_import_time>2025-10-29 11:11:22</last_success_import_time>
         <ldap_target/>
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
         <limit/>
         <maximum_rows/>
         <mid_server/>
-        <name>Brainboard Architecture Templates</name>
+        <name>Brainboard Architecture Templates (apac)</name>
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
@@ -84,14 +85,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-01 19:58:01</sys_created_on>
         <sys_id>6473481b8328a2103e53f065eeaad34d</sys_id>
-        <sys_mod_count>31</sys_mod_count>
-        <sys_name>Brainboard Architecture Templates</sys_name>
+        <sys_mod_count>144</sys_mod_count>
+        <sys_name>Brainboard Architecture Templates (apac)</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_data_source_6473481b8328a2103e53f065eeaad34d</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-04-15 19:53:09</sys_updated_on>
+        <sys_updated_on>2025-10-29 11:11:26</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>

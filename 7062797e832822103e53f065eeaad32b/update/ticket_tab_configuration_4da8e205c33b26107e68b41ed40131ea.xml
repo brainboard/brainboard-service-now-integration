@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ticket_tab_configuration">
+    <ticket_tab_configuration action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <order>10</order>
+        <parent display_value="x_854636_b_board_clone_template_task">1cd7e6c1c33b26107e68b41ed4013173</parent>
+        <script><![CDATA[/**
+ * The script should evaluate true/false or `answer` populated with true/false which validates if a tab is visible 
+ * The `current` object refers to the current Task(extension) record 
+ **/ 
+]]></script>
+        <sys_class_name>ticket_tab_configuration</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-03 21:36:51</sys_created_on>
+        <sys_id>4da8e205c33b26107e68b41ed40131ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>ticket_tab_configuration_4da8e205c33b26107e68b41ed40131ea</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-03 21:38:48</sys_updated_on>
+        <tab_name>Variables</tab_name>
+        <table>x_854636_b_board_clone_template_task</table>
+        <type>variable_summary</type>
+        <visible/>
+        <widget/>
+        <widget_param/>
+    </ticket_tab_configuration>
+    <sys_translated_text action="delete_multiple" query="documentkey=4da8e205c33b26107e68b41ed40131ea"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Trigger Initial Import From Brainboard">73d07ffdc33722107e68b41ed40131bc</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="">3da4ff76c33322107e68b41ed40131fd</related_log_entry>
+        <status>1</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-06 10:50:33</sys_created_on>
+        <sys_id>49a1b371c37722107e68b41ed4013171</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>gsw_status_of_content_49a1b371c37722107e68b41ed4013171</sys_update_name>
+        <sys_updated_by>chafik.belhaoues</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:38</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

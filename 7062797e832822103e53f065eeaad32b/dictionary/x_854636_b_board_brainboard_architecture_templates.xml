@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="004cb34f83e4a2103e53f065eeaad3de" extends="sys_import_set_row" label="Brainboard Imp Architecture Template" max_length="40" name="x_854636_b_board_brainboard_architecture_templates" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=uuid" label="uuid" max_length="40" name="u_uuid" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=synced_architectures" label="synced_architectures" max_length="40" name="u_synced_architectures" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=clone_count" label="clone_count" max_length="40" name="u_clone_count" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=synced" label="synced" max_length="40" name="u_synced" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=cloud_provider" label="cloud_provider" max_length="40" name="u_cloud_provider" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_by" label="created_by" max_length="40" name="u_created_by" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_by" label="updated_by" max_length="40" name="u_updated_by" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=project" label="project" max_length="40" name="u_project" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=revision" label="revision" max_length="316" name="u_revision" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=current_version_id" label="current_version_id" max_length="40" name="u_current_version_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=imported" label="imported" max_length="40" name="u_imported" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=terraform_provider" label="terraform_provider" max_length="141" name="u_terraform_provider" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=visibility" label="visibility" max_length="40" name="u_visibility" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=tags" label="tags" max_length="40" name="u_tags" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=readme" label="readme" max_length="4163" name="u_readme" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=template" label="template" max_length="40" name="u_template" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=environment" label="environment" max_length="40" name="u_environment" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="52" name="u_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=approved" label="approved" max_length="40" name="u_approved" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=cloud_providers_version" label="cloud_providers_version" max_length="109" name="u_cloud_providers_version" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=status" label="status" max_length="40" name="u_status" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=terraform_config" label="terraform_config" max_length="40" name="u_terraform_config" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=author" label="author" max_length="220041" name="u_author" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="47" name="u_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=snapshot_url" label="snapshot_url" max_length="117" name="u_snapshot_url" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_at" label="updated_at" max_length="40" name="u_updated_at" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=provider_configs" label="provider_configs" max_length="40" name="u_provider_configs" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=import_type" label="import_type" max_length="40" name="u_import_type" type="string"/>
+    <element db_object_id="d6cf0cf3c374e2107e68b41ed40131ef" extends="sys_import_set_row" label="Brainboard Imp Architecture Template" max_length="40" name="x_854636_b_board_brainboard_architecture_templates" type="collection">
         <element label="uuid" max_length="40" name="uuid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=clone_count" label="clone_count" max_length="40" name="u_clone_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=author" label="author" max_length="220041" name="u_author" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="API Type" max_length="40" name="api_type" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_by" label="updated_by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=synced_architectures" label="synced_architectures" max_length="40" name="u_synced_architectures" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=revision" label="revision" max_length="316" name="u_revision" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=readme" label="readme" max_length="256000" name="u_readme" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=import_type" label="import_type" max_length="40" name="u_import_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cloud_providers_version" label="cloud_providers_version" max_length="109" name="u_cloud_providers_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=approved" label="approved" max_length="40" name="u_approved" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=api_type" label="api_type" max_length="40" name="u_api_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=visibility" label="visibility" max_length="40" name="u_visibility" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=provider_configs" label="provider_configs" max_length="40" name="u_provider_configs" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=status" label="status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=snapshot_url" label="snapshot_url" max_length="117" name="u_snapshot_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=project" label="project" max_length="40" name="u_project" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=template" label="template" max_length="40" name="u_template" type="string"/>
+        <element label="Updated At" max_length="40" name="u_updated_at" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=thumbnail_url" label="thumbnail_url" max_length="127" name="u_thumbnail_url" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_at" label="created_at" max_length="40" name="u_created_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tags" label="tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=diagram" label="diagram" max_length="72" name="u_diagram" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_by" label="created_by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=imported" label="imported" max_length="40" name="u_imported" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=environment" label="environment" max_length="40" name="u_environment" type="string"/>
+        <element label="Created At" max_length="40" name="u_created_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uuid" label="uuid" max_length="40" name="u_uuid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=terraform_provider" label="terraform_provider" max_length="141" name="u_terraform_provider" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=terraform_config" label="terraform_config" max_length="40" name="u_terraform_config" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=synced" label="synced" max_length="40" name="u_synced" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="8000" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="256000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=current_version_id" label="current_version_id" max_length="40" name="u_current_version_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cloud_provider" label="cloud_provider" max_length="40" name="u_cloud_provider" type="string"/>
     </element>
 </database>

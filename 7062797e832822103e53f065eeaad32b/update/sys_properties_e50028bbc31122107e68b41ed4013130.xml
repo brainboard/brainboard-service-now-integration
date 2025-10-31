@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_854636_b_board.us1_variable_scheduled_job</name>
+        <read_roles/>
+        <suffix>us1.variable_scheduled_job</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-10 18:05:36</sys_created_on>
+        <sys_id>e50028bbc31122107e68b41ed4013130</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_854636_b_board.us1_variable_scheduled_job</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_properties_e50028bbc31122107e68b41ed4013130</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-10 21:16:31</sys_updated_on>
+        <type>string</type>
+        <value>b35392ab477422506161e99b116d432e</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e50028bbc31122107e68b41ed4013130"/>
+</record_update>

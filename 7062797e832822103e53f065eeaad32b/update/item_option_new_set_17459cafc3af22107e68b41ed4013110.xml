@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>project_environment</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-08-29 19:01:44</sys_created_on>
+        <sys_id>17459cafc3af22107e68b41ed4013110</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Project &amp; Environment</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>item_option_new_set_17459cafc3af22107e68b41ed4013110</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-30 11:16:46</sys_updated_on>
+        <title>Project &amp; Environment</title>
+        <type>one_to_one</type>
+        <version>37</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

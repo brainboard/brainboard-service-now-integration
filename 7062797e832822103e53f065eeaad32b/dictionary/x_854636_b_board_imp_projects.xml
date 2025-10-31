@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="35cbc1fe83bc62103e53f065eeaad390" extends="sys_import_set_row" label="Brainboard Imp Projects" max_length="40" name="x_854636_b_board_imp_projects" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=environments" label="environments" max_length="40" name="u_environments" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_by" label="updated_by" max_length="40" name="u_updated_by" type="string"/>
-        <element label="uuid" max_length="40" name="uuid" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_at" label="created_at" max_length="40" name="u_created_at" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_by" label="created_by" max_length="40" name="u_created_by" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=tags" label="tags" max_length="40" name="u_tags" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="40" name="u_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=role" label="role" max_length="40" name="u_role" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=teams" label="teams" max_length="40" name="u_teams" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=uuid" label="uuid" max_length="40" name="u_uuid" type="string"/>
+    <element db_object_id="189619c7c37b22107e68b41ed4013187" extends="sys_import_set_row" label="Brainboard Imp Projects" max_length="40" name="x_854636_b_board_imp_projects" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_at" label="updated_at" max_length="40" name="u_updated_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_api_type" label="Api type" max_length="40" name="u_api_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tags" label="tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=environments" label="environments" max_length="40" name="u_environments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=teams" label="teams" max_length="40" name="u_teams" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=role" label="role" max_length="40" name="u_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uuid" label="uuid" max_length="40" name="u_uuid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_at" label="created_at" max_length="40" name="u_created_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_by" label="created_by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_by" label="updated_by" max_length="40" name="u_updated_by" type="string"/>
     </element>
 </database>

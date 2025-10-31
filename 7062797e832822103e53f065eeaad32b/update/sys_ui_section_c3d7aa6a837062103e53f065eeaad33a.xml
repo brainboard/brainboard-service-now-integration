@@ -42,6 +42,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>api_type</element>
+            <position>3</position>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-09-09 20:26:51</sys_created_on>
+            <sys_id>04525503c37b22107e68b41ed40131c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_project" sys_domain="global" view="Default view">c3d7aa6a837062103e53f065eeaad33a</sys_ui_section>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-09-09 20:26:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

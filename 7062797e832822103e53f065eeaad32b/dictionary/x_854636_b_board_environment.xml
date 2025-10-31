@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1dc56626837062103e53f065eeaad3c0" label="Environment" max_length="40" name="x_854636_b_board_environment" type="collection">
-        <element label="ID" max_length="40" name="uuid" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Project" max_length="32" name="project" reference="x_854636_b_board_project" type="reference"/>
-        <element label="Name" max_length="80" name="name" type="string"/>
-        <element label="Description" max_length="256000" name="description" type="string"/>
+        <element label="Name" max_length="8000" name="name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Project" max_length="32" name="project" read_only="true" reference="x_854636_b_board_project" type="reference"/>
+        <element label="Description" max_length="256000" name="description" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="API Type" max_length="40" name="api_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="us1" sequence="20" value="us1"/>
+                <element inactive_on_update="false" label="apac1" sequence="10" value="apac1"/>
+            </choice>
+        </element>
+        <element label="ID" max_length="40" name="uuid" read_only="true" type="string"/>
         <index name="index">
             <element name="project"/>
-        </index>
-        <index name="index2">
-            <element name="uuid"/>
         </index>
     </element>
 </database>

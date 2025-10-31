@@ -10,6 +10,7 @@
         <create_access_controls>true</create_access_controls>
         <delete_access>true</delete_access>
         <filter_extension/>
+        <is_df_table>false</is_df_table>
         <is_extendable>false</is_extendable>
         <label>Brainboard Imp Environments</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -18,7 +19,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">51b0ff265c0022105590c762d23e630b</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">f4cf8e24c811221055906c7518aa2d6e</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-14 17:42:54</sys_created_on>

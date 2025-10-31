@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <article><![CDATA[<p>Set the <strong>x_854636_b_board.api.type</strong> system property to the API type you want to use when interacting with the Brainboard API </p>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point/>
+        <end_point_open_mode>1</end_point_open_mode>
+        <end_point_type>7</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>20</order>
+        <parent display_value="Configure System Properties">456ec37dc37322107e68b41ed401310e</parent>
+        <parents>456ec37dc37322107e68b41ed401310e,aa9d4b7dc37322107e68b41ed4013128</parents>
+        <plugin_id/>
+        <property_name>x_854636_b_board.api.type</property_name>
+        <property_value>api type</property_value>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Brainboard Application Setup">aa9d4b7dc37322107e68b41ed4013128</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-06 09:27:22</sys_created_on>
+        <sys_id>ba4e1b35c3f322107e68b41ed4013188</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>API Type</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>gsw_content_information_ba4e1b35c3f322107e68b41ed4013188</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 09:30:24</sys_updated_on>
+        <table/>
+        <title>API Type</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba4e1b35c3f322107e68b41ed4013188"/>
+</record_update>

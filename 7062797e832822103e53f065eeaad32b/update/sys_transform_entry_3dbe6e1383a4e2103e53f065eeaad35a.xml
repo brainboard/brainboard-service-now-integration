@@ -19,14 +19,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 08:24:59</sys_created_on>
         <sys_id>3dbe6e1383a4e2103e53f065eeaad35a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>u_updated_at</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_transform_entry_3dbe6e1383a4e2103e53f065eeaad35a</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-02 08:24:59</sys_updated_on>
+        <sys_updated_on>2025-09-10 12:01:10</sys_updated_on>
         <target_field>updated_at</target_field>
         <target_table>x_854636_b_board_architecture_template</target_table>
         <use_source_script>false</use_source_script>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time>1970-01-01 00:04:00</entered_time>
+        <max_drift/>
+        <name>CleanUp Data</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="">11665ccb93f8fe10eae01aebb9373c3e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2025-09-11 11:39:33</run_start>
+        <run_time>1970-01-01 00:04:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[var brainboardUtil = new x_854636_b_board.BrainboardUtility();
+var res = brainboardUtil.cleanArchTemplates();
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-11 11:40:17</sys_created_on>
+        <sys_id>67cc65efc3b322107e68b41ed40131c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CleanUp Data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sysauto_script_67cc65efc3b322107e68b41ed40131c1</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-11 11:40:17</sys_updated_on>
+        <time_zone>Europe/London</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

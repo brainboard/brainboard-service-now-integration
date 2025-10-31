@@ -3,196 +3,154 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>id</element>
             <position>0</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>45b4ab9b83a8e2103e53f065eeaad3eb</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:00</sys_created_on>
+            <sys_id>0252c03ac31122107e68b41ed40131df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
-            <position>1</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>c9b4ab9b83a8e2103e53f065eeaad3eb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>default</element>
-            <position>2</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>41b4ab9b83a8e2103e53f065eeaad3ec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>3</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>c5b4ab9b83a8e2103e53f065eeaad3ec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>scope</element>
-            <position>4</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>4db4ab9b83a8e2103e53f065eeaad3ec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>scope_id</element>
-            <position>5</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>c1b4ab9b83a8e2103e53f065eeaad3ed</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sensitive</element>
-            <position>6</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>49b4ab9b83a8e2103e53f065eeaad3ed</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>type</element>
-            <position>7</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>cdb4ab9b83a8e2103e53f065eeaad3ed</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>validation</element>
-            <position>8</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>45b4ab9b83a8e2103e53f065eeaad3ee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value</element>
-            <position>9</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>c9b4ab9b83a8e2103e53f065eeaad3ee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>architecture_template</element>
-            <position>10</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 12:20:52</sys_created_on>
-            <sys_id>41b4ab9b83a8e2103e53f065eeaad3ef</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 12:20:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>mandatry</element>
-            <position>11</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-03 06:37:10</sys_created_on>
-            <sys_id>18af5beb832066103e53f065eeaad3e8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-03 06:37:10</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>architecture_template_uuid_and_variable_name</element>
-            <position>12</position>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-03 08:18:03</sys_created_on>
-            <sys_id>02b6336383e066103e53f065eeaad370</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-03 08:18:03</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>catalog_variable</element>
-            <position>13</position>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>8652c03ac31122107e68b41ed40131df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>architecture_template</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>0e52c03ac31122107e68b41ed40131df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>8252c03ac31122107e68b41ed40131e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>default</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>0a52c03ac31122107e68b41ed40131e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>8e52c03ac31122107e68b41ed40131e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mandatry</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>0652c03ac31122107e68b41ed40131e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>8a52c03ac31122107e68b41ed40131e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>0252c03ac31122107e68b41ed40131e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-07 13:22:01</sys_created_on>
+            <sys_id>8652c03ac31122107e68b41ed40131e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-07 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>api_type</element>
+            <position>10</position>
             <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-12 14:53:02</sys_created_on>
-            <sys_id>6f6767a683b462103e53f065eeaad348</sys_id>
+            <sys_created_on>2025-09-09 21:34:03</sys_created_on>
+            <sys_id>d8b12187c3fb22107e68b41ed4013136</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_854636_b_board_variable" sys_domain="global" view="Default view">01b4e39b83a8e2103e53f065eeaad3cd</sys_ui_section>
             <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-12 14:53:02</sys_updated_on>
+            <sys_updated_on>2025-09-09 21:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

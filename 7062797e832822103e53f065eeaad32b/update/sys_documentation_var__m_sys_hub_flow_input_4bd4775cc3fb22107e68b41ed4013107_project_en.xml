@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="project" label="Project" language="en" table="var__m_sys_hub_flow_input_4bd4775cc3fb22107e68b41ed4013107">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>project</element>
+            <help/>
+            <hint/>
+            <label>Project</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_4bd4775cc3fb22107e68b41ed4013107</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-09-01 19:43:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Project</sys_name>
+            <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4bd4775cc3fb22107e68b41ed4013107_project_en</sys_update_name>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-09-01 19:43:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

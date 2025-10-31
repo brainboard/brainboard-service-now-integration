@@ -3,257 +3,377 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>b690f6d383a4e2103e53f065eeaad300</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>01a4e66747f87210fe41e30b216d43b9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>uuid</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3a90f6d383a4e2103e53f065eeaad300</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>85a4e66747f87210fe41e30b216d43b9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>environment</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>ba90f6d383a4e2103e53f065eeaad300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>project</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3e90f6d383a4e2103e53f065eeaad300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>clone_count</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>be90f6d383a4e2103e53f065eeaad300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>synced</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>5</position>
+            <position>2</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3290f6d383a4e2103e53f065eeaad301</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>0da4e66747f87210fe41e30b216d43b9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>template</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>b290f6d383a4e2103e53f065eeaad301</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>visibility</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>7</position>
+            <position>3</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3690f6d383a4e2103e53f065eeaad301</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>81a4e66747f87210fe41e30b216d43ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>status</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>8</position>
+            <position>4</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>b690f6d383a4e2103e53f065eeaad301</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>09a4e66747f87210fe41e30b216d43ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>cloud_provider</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <element>catalog_item</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>9</position>
+            <position>5</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3a90f6d383a4e2103e53f065eeaad301</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>8da4e66747f87210fe41e30b216d43ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>terraform_provider</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <element>api_type</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>10</position>
+            <position>6</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>ba90f6d383a4e2103e53f065eeaad301</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>05a4e66747f87210fe41e30b216d43bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>approved</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <element>active</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>11</position>
+            <position>7</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3e90f6d383a4e2103e53f065eeaad301</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>89a4e66747f87210fe41e30b216d43bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>imported</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>12</position>
-            <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>be90f6d383a4e2103e53f065eeaad301</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>current_version_id</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>13</position>
-            <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3290f6d383a4e2103e53f065eeaad302</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>14</position>
+            <position>8</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>b290f6d383a4e2103e53f065eeaad302</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>01a4e66747f87210fe41e30b216d43bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>readme</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>85a4e66747f87210fe41e30b216d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cloud_provider</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>0da4e66747f87210fe41e30b216d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>terraform_provider</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>81a4e66747f87210fe41e30b216d43bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approved</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>09a4e66747f87210fe41e30b216d43bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>imported</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>8da4e66747f87210fe41e30b216d43bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>current_version_id</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>05a4e66747f87210fe41e30b216d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>thumbnail_url</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>15</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>3690f6d383a4e2103e53f065eeaad302</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>89a4e66747f87210fe41e30b216d43be</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>snapshot_url</element>
-            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e90b6d383a4e2103e53f065eeaad3ff</list_id>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>16</position>
             <sum>false</sum>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
-            <sys_id>b690f6d383a4e2103e53f065eeaad302</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>01a4e66747f87210fe41e30b216d43bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>template</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>85a4e66747f87210fe41e30b216d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>updated_at</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>0da4e66747f87210fe41e30b216d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>updated_by</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>81a4e66747f87210fe41e30b216d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>environment</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>09a4e66747f87210fe41e30b216d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>8da4e66747f87210fe41e30b216d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>created_at</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>05a4e66747f87210fe41e30b216d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>created_by_brainboard_user</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>89a4e66747f87210fe41e30b216d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>clone_count</element>
+            <list_id display_value="x_854636_b_board_architecture_template" element="NULL" name="x_854636_b_board_architecture_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c1a4e66747f87210fe41e30b216d43b8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
+            <sys_id>01a4e66747f87210fe41e30b216d43c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -266,19 +386,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>yohanes.yilma</sys_created_by>
-            <sys_created_on>2025-04-02 08:33:15</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 08:46:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3e90b6d383a4e2103e53f065eeaad3ff</sys_id>
+            <sys_id>c1a4e66747f87210fe41e30b216d43b8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_854636_b_board_architecture_template</sys_name>
             <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
             <sys_policy/>
             <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
             <sys_update_name>sys_ui_list_x_854636_b_board_architecture_template_null</sys_update_name>
-            <sys_updated_by>yohanes.yilma</sys_updated_by>
-            <sys_updated_on>2025-04-02 08:33:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 08:46:17</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
